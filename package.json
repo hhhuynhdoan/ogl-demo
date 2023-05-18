@@ -1,0 +1,50 @@
+{
+  "name": "huynhdoan",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.7.8",
+    "core-js": "^3.25.3",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.12.0",
+    "msdf-bmfont-xml": "^2.7.0",
+    "node-sass": "^8.0.0",
+    "nuxt": "^2.15.8",
+    "nuxt-typed-vuex": "^0.3.1",
+    "ogl": "^0.0.117",
+    "sass": "^1.54.5",
+    "sass-loader": "^10",
+    "stylelint": "^15.6.2",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^33.0.0",
+    "three": "^0.152.2",
+    "vue": "^2.7.10",
+    "vue-property-decorator": "^9.1.2",
+    "vue-server-renderer": "^2.7.14",
+    "vue-template-compiler": "^2.7.14",
+    "vuex": "^4.1.0",
+    "webpack": "^5.82.1"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@vue/test-utils": "^1.3.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^29.1.2",
+    "jest": "^29.1.2",
+    "jest-environment-jsdom": "^29.1.2",
+    "ts-jest": "^29.0.3",
+    "vue-jest": "^3.0.4"
+  }
+}
