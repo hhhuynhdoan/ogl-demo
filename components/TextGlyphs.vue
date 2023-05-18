@@ -3,8 +3,9 @@
 </template>
 
 <script>
-import { Renderer, Camera, Transform, Geometry, Texture, Program, Mesh, Orbit, Text } from '../utils/index.js';
-
+import { Renderer, Camera, Transform, Geometry, Texture, Program, Mesh, Orbit, Text } from 'ogl-typescript';
+import FontImage from 'assets/fonts/FiraSans-Bold.png';
+import FontJson from 'assets/fonts/FiraSans-Bold.json';
 const vertex = /* glsl */ `
     attribute vec2 uv;
     attribute vec3 position;
@@ -87,7 +88,7 @@ export default {
     const texture = new Texture(gl, { generateMipmaps: false });
     const img = new Image();
     img.onload = () => (texture.image = img);
-    img.src = 'assets/fonts/FiraSans-Bold.png';
+    img.src = FontImage;
 
     const program = new Program(gl, {
       vertex: renderer.isWebgl2 ? vertex300 : vertex100,
@@ -100,7 +101,7 @@ export default {
 
     loadText();
     async function loadText() {
-      const font = await (await fetch('assets/fonts/FiraSans-Bold.json')).json();
+      const font = await (await fetch(FontJson)).json();
 
       const text = new Text({
         font,

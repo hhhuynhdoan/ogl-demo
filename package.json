@@ -22,6 +22,7 @@
     "nuxt": "^2.15.8",
     "nuxt-typed-vuex": "^0.3.1",
     "ogl": "^0.0.117",
+    "ogl-typescript": "^0.1.40",
     "sass": "^1.54.5",
     "sass-loader": "^10",
     "stylelint": "^15.6.2",

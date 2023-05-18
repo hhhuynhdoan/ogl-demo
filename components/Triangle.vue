@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { Renderer, Program, Color, Mesh, Triangle } from '../utils/index.js';
+import { Renderer, Program, Color, Mesh, Triangle } from 'ogl-typescript';
 
 export default {
   name: 'Triangle',
